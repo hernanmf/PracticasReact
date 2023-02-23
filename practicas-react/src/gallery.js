@@ -32,7 +32,7 @@ export function Gallery() {
 
   let sculpture = sculptureList[index];
   return (
-    <section>
+    <>
       <button onClick={handlePrevClick} disabled={!btnPrevActivo}>
         Anterior
       </button>
@@ -50,6 +50,6 @@ export function Gallery() {
       </button>
       {showMore && <p> {sculpture.description} </p>}
       <img src={sculpture.url} alt={sculpture.alt} />
-    </section>
+    </>
   );
 }
