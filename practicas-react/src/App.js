@@ -2,6 +2,7 @@ import "./App.css";
 import { Gallery } from "./gallery.js";
 import { Form } from "./form.js";
 import { FeedbackForm } from "./FeedBackForm";
+import { BotonSaludo } from "./botonSaludo";
 
 function App() {
   return (
@@ -15,6 +16,10 @@ function App() {
       <br />
       <br />
       <FeedbackForm />
+      <br />
+      <br />
+      <br />
+      <BotonSaludo />
     </>
   );
 }
