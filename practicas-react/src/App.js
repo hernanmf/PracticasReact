@@ -3,6 +3,7 @@ import { Gallery } from "./gallery.js";
 import { Form } from "./form.js";
 import { FeedbackForm } from "./FeedBackForm";
 import { BotonSaludo } from "./botonSaludo";
+import { LightSwitch } from "./LightSwitch";
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
       <br />
       <br />
       <BotonSaludo />
+      <br />
+      <br />
+      <br />
+      <LightSwitch />
     </>
   );
 }
