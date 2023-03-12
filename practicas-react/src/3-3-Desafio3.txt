@@ -1,0 +1,4 @@
+Desafío 3: Completar la sentencia con la palabra correcta
+<button ..... ={clicked}>Click Me!</button>
+
+<button onClick={clicked}>Click Me!</button>
